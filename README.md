@@ -11,6 +11,10 @@ This repository houses a sophisticated trading bot designed for the foreign exch
 - **Quantum Machine Learning (QML):** Analyzes large datasets with quantum-enhanced machine learning models to detect patterns and predict market trends.
 - **Entanglement & Superposition:** Leverages quantum principles to manage multi-asset strategies, improving correlation and co-movement analyses between assets.
 
+### Technological Constraints:
+- **Trading Broker:** This bot is specifically designed to work with **Interactive Brokers** as the trading broker. The bot interfaces with Interactive Brokers' API to execute trades, fetch market data, and manage orders.
+- **Quantum Service Provider:** Quantum computations are handled using **IBM Qiskit**. The quantum algorithms integrated into the bot rely on Qiskit's cloud-based quantum computing services to perform optimizations, simulations, and machine learning tasks.
+
 ## Installation
 
 Follow these steps to set up the trading bot on your local machine:
@@ -25,10 +29,10 @@ Follow these steps to set up the trading bot on your local machine:
    ```bash
    pip install -r requirements.txt
    ```
-   Ensure you have access to a quantum computing service such as IBM Qiskit or D-Wave.
+   Ensure you have access to a quantum computing service such as IBM Qiskit and an account with Interactive Brokers.
 
 3. **Set Up Environment Variables:**
-   - **API_KEY:** Your broker's API key.
+   - **API_KEY:** Interactive Brokers' API key.
    - **QUANTUM_SERVICE_API:** API key for IBM Qiskit quantum computing service.
 
 4. **Run the Bot:**
