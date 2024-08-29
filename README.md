@@ -17,8 +17,8 @@ Follow these steps to set up the trading bot on your local machine:
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/yourusername/quantum-enhanced-trading-bot.git
-   cd quantum-enhanced-trading-bot
+   git clone https://github.com/lucasodrs/nexese-fx-bot.git
+   cd nexese-fx-bot
    ```
 
 2. **Install Dependencies:**
@@ -29,7 +29,7 @@ Follow these steps to set up the trading bot on your local machine:
 
 3. **Set Up Environment Variables:**
    - **API_KEY:** Your broker's API key.
-   - **QUANTUM_SERVICE_API:** API key for the quantum computing service.
+   - **QUANTUM_SERVICE_API:** API key for IBM Qiskit quantum computing service.
 
 4. **Run the Bot:**
    ```bash
